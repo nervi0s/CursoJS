@@ -1,3 +1,8 @@
+/*6 - Crear varios objetos definiendo los posibles parametros o propiedades de
+-Un mensaje de discord
+-Un canal de discord
+*/
+
 let mesanjeDiscord = {
     'avatar' : "URL imagen",
     'cuerpo' : "Contenido del mensaje",

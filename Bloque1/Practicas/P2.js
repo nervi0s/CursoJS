@@ -1,3 +1,10 @@
+/*2 - Declarar variables mutables de todos los tipos, con etiqueta y contenido a nuestra elección
+-String
+-Number
+-Object
+-Boolean
+-Array*/
+
 let phrase = "Hola que tal";
 let number = 50.5;
 let car = {
