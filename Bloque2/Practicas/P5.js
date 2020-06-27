@@ -6,9 +6,10 @@ let alergenos = ["cebolla","gambas"];*/
 let ingredienteRestaurante = ["kiwi", "pimienta", "pimiento", "merluza", "tomate", "cacahuete", "huevo", "langosta", "gambas", "curry", "curcuma", "mantequilla", "cebolla", "cacao", "harina", "limon", "aguacate", "vainilla", "miel", "apio", "salmon", "atun", "arroz"];
 let alergenos = ["cebolla", "gambas"];
 
-let isMatch = false;
 
 for (let i = 0; i < ingredienteRestaurante.length; i++) {
+    
+    let isMatch = false;
 
     for (let j = 0; j < alergenos.length; j++) {
         if (ingredienteRestaurante[i] == alergenos[j]) {
@@ -20,5 +21,4 @@ for (let i = 0; i < ingredienteRestaurante.length; i++) {
     if (isMatch == false) {
         console.log(ingredienteRestaurante[i]);
     }
-    isMatch = false;
 }
