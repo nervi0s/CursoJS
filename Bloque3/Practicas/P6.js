@@ -1,3 +1,5 @@
+/* 6 (Bonus) - Crea un cifrado tipo cesar que codifique/encripte y descodifique/desencripte de la A-Z*/
+
 let temporal = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
 const MapaABC = temporal.split("");
 
@@ -56,7 +58,7 @@ console.log(fraseCifrada);
 let fraseRecuperada = descifrar(1, fraseCifrada);
 console.log(fraseRecuperada);
 
-/*Hola Gir para cuando corrijas esto y veas el caos que he montado sorry 
-por otra parte me gustaría saber si a partie de un array de caracteres como el que me
+/*toDo: Hola Gir para cuando corrijas esto y veas el caos que he montado sorry
+por otra parte me gustaría saber si a partir de un array de caracteres como el que me
 devuelve la función descifrar, puedo construir una frase como un String.
 Un saludo y gracias!!!*/

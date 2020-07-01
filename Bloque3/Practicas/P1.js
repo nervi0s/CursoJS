@@ -1,3 +1,6 @@
+/*1 - Crea una calculadora que capaz de realizar: Sumas, restas,
+**multiplicaciones y divisiones, usando funciones, parametros y retornos*/
+
 function sumar(a, b) {
     return a + b;
 }
@@ -34,4 +37,4 @@ let numero1 = 2;
 let numero2 = 3;
 let operacion = "multiplicar"
 
-console.log(calculadora(numero1,numero2,operacion));
+console.log(calculadora(numero1, numero2, operacion));

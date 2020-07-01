@@ -1,3 +1,10 @@
+/*4 - Crea un generador de 1000000000(1M) de numeros aleatorios enteros,
+**cuando uno de los numeros aleatorios sea creado y este sea un numero primo debemos
+**guardar su valor en un array llamado "numerosPrimos", deberemos hacer lo mismo para detectar los "numerosPares"
+**y guardar los numeros en formato JSON en dos archivos separados llamados "numerosPrimos.JSON"
+**y "numerosPares.JSON". Requisitio: Usar minimo 2 funciones. Bonus: Hacer que los numeros no se repitan en sus respectivas listas*/
+
+
 const fs = require('fs');
 
 function esPrimo(numero) {
