@@ -26,7 +26,7 @@ async function createFiles(numDatos) {
             await writeFilePromise("./poke" + i + ".json", JSON.stringify(data));
             console.log("Archivo creado", i);
         }
-        catch{
+        catch(err){
             console.log(err);
         }
     }
@@ -48,7 +48,7 @@ async function readFiles() {
                 arrayObjPoke.push(JSON.parse(dataFromFile));
                 console.log("Archivo leído", i);
             }
-            catch{
+            catch(err){
                 console.log(err);
             }
         }
