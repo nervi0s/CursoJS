@@ -1,0 +1,6 @@
+En este punto hemos hecho nuestra primera toma de contacto sobre cómo consumir una API.
+Ahora vamos a hacer uso de los conocimientos obtenidos hasta hoy para hacer una toma de contacto sobre 
+cómo crear un bot de discord.
+
+Para eso vamos a crear una carpeta nueva fuera de aquí donde crearemos un nuevo proyecto.
+
