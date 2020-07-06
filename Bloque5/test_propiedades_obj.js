@@ -1,6 +1,8 @@
 //Mutando propiedades de los objetos//
 //////////////////////////////////////
 
+//Tenemos un objeto del cual queremos modificar una determinada propiedad
+
 /* let objeto = {
     "national_number": "1",
     "evolution": null,
@@ -144,3 +146,22 @@ for (let i = 0; i < objs.length; i++) {
     }
 }
 console.log(objs);
+
+/*
+let objs = {
+    "national_numer" : 22,
+    "otraProp" : 2,
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "sp_atk": 65,
+    "sp_def": 65,
+    "speed": 45
+}
+let array=["hp","attack","defense","sp_atk","sp_def","speed"]
+
+for (let i = 0; i < array.length; i++) {
+    objs[array[i]]=Math.floor(objs[array[i]]*1.05)
+}
+console.log(objs)
+*/
